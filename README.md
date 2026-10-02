@@ -2,12 +2,11 @@
   <img src="assets/banner.svg" alt="Koushal Karthik Rao, backend engineer. Retro pixel-art game title screen." width="100%">
 </p>
 
-<p align="center">
-  <a href="https://koushalkarthik5-portfolio.vercel.app">Portfolio</a> &middot;
-  <a href="https://linkedin.com/in/koushalkarthikrao">LinkedIn</a> &middot;
-  <a href="https://leetcode.com/u/blacktongue343/">LeetCode</a> &middot;
-  <a href="mailto:koushalkarthik5@gmail.com">Email</a>
-</p>
+**Links**
+- Portfolio: [koushalkarthik5-portfolio.vercel.app](https://koushalkarthik5-portfolio.vercel.app)
+- LinkedIn: [linkedin.com/in/koushalkarthikrao](https://linkedin.com/in/koushalkarthikrao)
+- LeetCode: [leetcode.com/u/blacktongue343](https://leetcode.com/u/blacktongue343/)
+- Email: [koushalkarthik5@gmail.com](mailto:koushalkarthik5@gmail.com)
 
 ---
 
