@@ -1,86 +1,60 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Koushal Karthik Rao, backend engineer. Retro pixel-art game title screen." width="100%">
-</p>
+# Hi, I'm Koushal Karthik Rao
 
-**Links**
-- Portfolio: [koushalkarthik5-portfolio.vercel.app](https://koushalkarthik5-portfolio.vercel.app)
-- LinkedIn: [linkedin.com/in/koushalkarthikrao](https://linkedin.com/in/koushalkarthikrao)
-- LeetCode: [leetcode.com/u/blacktongue343](https://leetcode.com/u/blacktongue343/)
-- Email: [koushalkarthik5@gmail.com](mailto:koushalkarthik5@gmail.com)
+Computer Science undergraduate (B.Tech, AVN Institute of Engineering and Technology, Hyderabad, graduating 2027) focused on backend engineering and ML-powered products. I'm looking for **Software Engineering / Backend internships**.
+
+[Portfolio](https://koushalkarthik5-portfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/koushalkarthikrao) · [LeetCode](https://leetcode.com/u/blacktongue343/) · koushalkarthik5@gmail.com
 
 ---
 
-## > PLAYER 1
+## Featured Projects
 
-```text
-+-----------------------------------------------------------+
-| NAME     : Koushal Karthik Rao                            |
-| CLASS    : Backend Engineer (Python / FastAPI)            |
-| SCHOOL   : AVN Institute of Engineering & Technology      |
-| BASE     : Hyderabad, India                               |
-| STATUS   : Open to backend internships                    |
-+-----------------------------------------------------------+
-```
+### [QRShield++](https://github.com/koushalkarthik15/QR-Code-security) · [Live demo](https://qr-code-security-6caq.vercel.app)
+QR-code security platform: upload a QR image, get an ML-based phishing risk score and an explanation before opening the link.
+- Audited a dataset of 1M benign and 4.3K phishing URLs and cross-checked it against the Tranco top-1M
+- 31 automated tests, run in CI before each deploy
+- **Stack:** Next.js, FastAPI, PostgreSQL, scikit-learn, Docker
 
-Computer science undergraduate who builds end-to-end backend systems: API design, databases, ML integration, automated tests and CI, and deployment. Below are the missions I've completed and what I'm working on next.
+### [CrisisPilot](https://github.com/koushalkarthik15/CrisisPilot-Slack)
+Slack-native crisis-management platform: monitoring profiles, missions, incidents, evidence and an audit timeline, with human-in-the-loop AI recommendations.
+- 12-table async schema, 50+ interactive Slack handlers, 27 automated tests
+- Feature-first architecture with repository pattern and dependency injection
+- **Stack:** Python, FastAPI, Slack Bolt, SQLAlchemy (async), LangGraph, MCP
 
----
+### [Mini-SOC](https://github.com/koushalkarthik15/SecurityOperationCenter)
+Security Operations Center with a live dashboard, ML threat classification and GeoIP enrichment. Built as a team of 4 (I led it).
+- Random Forest classifier: 81.2% test accuracy on 9,537 network session records
+- 7 REST endpoints, 26 tests (pytest + Jest/React Testing Library)
+- **Stack:** Python, scikit-learn, SQLite, TypeScript, React
 
-## > MISSION SELECT
-
-| Stage | Mission | Objective | Loot | Weapons |
-|:--:|---|---|---|---|
-| 1 | **[QRShield++](https://github.com/koushalkarthik15/QR-Code-security)** ([play](https://qr-code-security-6caq.vercel.app)) | Scan a QR code and get an ML risk score before opening the link | 1M benign + 4.3K phishing URLs audited, 31 tests, live demo | Next.js, FastAPI, PostgreSQL, scikit-learn, Docker |
-| 2 | **[CrisisPilot](https://github.com/koushalkarthik15/CrisisPilot-Slack)** | Slack-native crisis management with AI-assisted recommendations | 12-table async schema, 50+ Slack handlers, 27 tests | Python, FastAPI, Slack Bolt, SQLAlchemy, LangGraph |
-| 3 | **[Mini-SOC](https://github.com/koushalkarthik15/SecurityOperationCenter)** | Live threat-monitoring dashboard with ML classification | 81.2% accuracy on 9,537 records, 7 endpoints, 26 tests, team of 4 (lead) | Python, scikit-learn, SQLite, TypeScript, React |
-| Bonus | **[EcoSphere](https://github.com/koushalkarthik15/EcoSphere)** ([play](https://eco-sphere-wine.vercel.app)) | Climate-tech dashboard combining satellite and emissions data | Hackathon build | FastAPI, Next.js |
-
-**Boss fights so far:** a 1,000,000 : 4,300 class imbalance, and fitting scikit-learn inside a 250 MB serverless limit.
+### More
+- [EcoSphere](https://github.com/koushalkarthik15/EcoSphere) · [Live demo](https://eco-sphere-wine.vercel.app): hackathon project combining satellite and emissions data APIs in a role-based dashboard (FastAPI + Next.js)
 
 ---
 
-## > INVENTORY
+## Tech
 
-| Slot | Items |
-|---|---|
-| Languages | Python &middot; Java &middot; JavaScript &middot; TypeScript &middot; SQL |
-| Backend | FastAPI &middot; SQLAlchemy / SQLModel &middot; REST API design &middot; async Python |
-| Frontend | React &middot; Next.js |
-| Data & ML | PostgreSQL &middot; SQLite &middot; scikit-learn &middot; LangGraph &middot; LLM APIs (OpenAI, Groq) |
-| Testing & DevOps | pytest &middot; Jest / Vitest &middot; Playwright &middot; Docker &middot; GitHub Actions &middot; Git &middot; Linux |
+**Languages:** Python, Java, JavaScript, TypeScript, SQL, C
+**Backend:** FastAPI, SQLAlchemy / SQLModel, Slack Bolt, REST API design
+**Frontend:** React, Next.js, Tailwind CSS
+**Data & ML:** PostgreSQL, SQLite, scikit-learn, LangGraph, MCP
+**Testing & DevOps:** pytest, Jest, Vitest, Playwright, Docker, GitHub Actions, Git, Linux, Vercel, Railway
+
+---
+<!-- 
+## Currently
+
+- Adding Redis caching and rate limiting to QRShield++, with before/after benchmarks
+- Deploying a project to the cloud (AWS / GCP)
+- Working through NeetCode 150 and LeetCode contests
+- Making my first open-source contributions
+
+--- -->
+
+## Achievements
+
+- **Regional Finalist (Top 10 Teams)**, AMD Ryzen Slingshot National Hackathon
+- **First Place**, Mind Marathon (quiz), Dept. of AI & Data Science, AVN Institute
 
 ---
 
-## > ACHIEVEMENTS UNLOCKED
-
-- **Regional Finalist (Top 10 Teams)**, AMD Ryzen Slingshot National Hackathon. Led a multidisciplinary team.
-- **First Place**, Mind Marathon (quiz), Dept. of AI & Data Science, AVN Institute. Led the winning team.
-
----
-
-## > QUEST LOG (in progress)
-
-- [ ] Redis caching and rate limiting on QRShield++, with before/after benchmarks
-- [ ] Deploy a backend to the cloud (AWS / GCP)
-- [ ] NeetCode 150 and weekly LeetCode contests
-- [ ] First merged open-source pull request
-- [ ] A RAG project with a measured evaluation set
-
-<details>
-<summary>Enter cheat code: up up down down left right left right B A</summary>
-
-<br>
-
-**How I work**
-- Test the risky parts, and run the tests in CI before every deploy
-- Document trade-offs and limits, not just features
-- Report numbers (dataset size, accuracy, test counts) instead of adjectives
-- Keep changes small and reviewable
-
-</details>
-
----
-
-## > SAVE POINT
-
-Insert coin to start a conversation: **[koushalkarthik5@gmail.com](mailto:koushalkarthik5@gmail.com)** or find me on [LinkedIn](https://linkedin.com/in/koushalkarthikrao).
+*Open to internship opportunities. The best way to reach me is by email or LinkedIn.*
